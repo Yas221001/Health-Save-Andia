@@ -1,0 +1,54 @@
+
+.botones {
+    animation-name: botones;
+    animation-iteration-count: 1 ;
+    animation-duration: 5s;
+}
+
+@keyframes botones {
+    0%{
+transform:rotate(170deg) ;
+    }
+
+    100%{
+        transform:rotate(0deg) ;
+    }
+}
+
+.transicion {
+    animation-name: titulo;
+    animation-iteration-count: 1 ;
+    animation-duration: 3s;
+    text-align: center;
+}
+
+@keyframes titulo {
+    0%{
+transform: translate(-100px);
+opacity: 0;
+    }
+
+    100%{
+transform: translate(0);
+opacity: 100;
+    }
+}
+
+.imagenAnimada {
+    animation-name: imagenes;
+    animation-iteration-count: 1 ;
+    animation-duration: 3s;
+    margin: .5rem;
+}
+
+@keyframes imagenes{
+    0%{
+transform: scale(0,0);
+opacity: 0;
+    }
+
+    100%{
+        transform: scale(1,1);
+opacity: 100;
+    }
+}
